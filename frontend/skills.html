@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SKILLS — Santhosh Kumar</title>
+  <meta name="description"
+    content="Skills of Santhosh Kumar - Full Stack, AI Tools & Automation, Design & Performance." />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="index.html#home" class="back-btn" aria-label="Back to Home" title="Back to Home">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="back-icon">
+          <path d="M15 18l-6-6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" />
+        </svg>
+      </a>
+      <a href="index.html#home" class="brand">Santhosh Kumar</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="index.html#skills">Skills</a></li>
+        <li><a href="index.html#services">Services</a></li>
+        <li><a href="index.html#projects">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="skills" class="section section-pad">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+          <!-- Full Stack first -->
+          <div class="skills-group card reveal">
+            <h3 class="text-xl font-bold mb-4 text-primary-600 flex items-center gap-2">
+              <i class="fas fa-laptop-code text-2xl"></i>
+              Full Stack Development
+            </h3>
+            <div class="space-y-4 skills-columns">
+              <div>
+                <h4 class="font-semibold text-gray-700 mb-2 flex items-center gap-2">
+                  <i class="fas fa-paint-brush text-primary-500"></i>
+                  Frontend
+                </h4>
+                <div class="flex flex-wrap gap-2 badges">
+                  <span class="badge">HTML5</span>
+                  <span class="badge">CSS3</span>
+                  <span class="badge">Tailwind</span>
+                  <span class="badge">JavaScript</span>
+                  <span class="badge">React.js</span>
+                  <span class="badge">Next.js</span>
+                </div>
+              </div>
+              <div>
+                <h4 class="font-semibold text-gray-700 mb-2 flex items-center gap-2">
+                  <i class="fas fa-server text-primary-500"></i>
+                  Backend
+                </h4>
+                <div class="flex flex-wrap gap-2 badges">
+                  <span class="badge">Node.js</span>
+                  <span class="badge">Express.js</span>
+                  <span class="badge">REST APIs</span>
+                  <span class="badge">JWT Auth</span>
+                </div>
+              </div>
+              <div>
+                <h4 class="font-semibold text-gray-700 mb-2 flex items-center gap-2">
+                  <i class="fas fa-database text-primary-500"></i>
+                  Database
+                </h4>
+                <div class="flex flex-wrap gap-2 badges">
+                  <span class="badge">MongoDB</span>
+                  <span class="badge">Supabase</span>
+                </div>
+              </div>
+              <div>
+                <h4 class="font-semibold text-gray-700 mb-2 flex items-center gap-2">
+                  <i class="fas fa-tools text-primary-500"></i>
+                  Tools
+                </h4>
+                <div class="flex flex-wrap gap-2 badges">
+                  <span class="badge">Git</span>
+                  <span class="badge">GitHub</span>
+                  <span class="badge">Postman</span>
+                  <span class="badge">VS Code</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- AI Tools second -->
+          <div class="skills-group card reveal">
+            <h3 class="text-xl font-bold mb-4 text-primary-600 flex items-center gap-2">
+              <i class="fas fa-robot text-2xl"></i>
+              AI Tools & Automation
+            </h3>
+            <div class="badges">
+              <span class="badge">n8n</span>
+              <span class="badge">Hazel</span>
+              <span class="badge">Zapier</span>
+              <span class="badge lindy">Lindy</span>
+            </div>
+          </div>
+
+          <!-- Design & Performance third -->
+          <div class="skills-group card reveal">
+            <h3 class="text-xl font-bold mb-4 text-primary-600 flex items-center gap-2">
+              <i class="fas fa-globe text-2xl"></i>
+              Design & Performance
+            </h3>
+            <div class="space-y-3">
+              <div class="flex flex-wrap gap-2 badges">
+                <span class="badge">UI/UX Principles</span>
+                <span class="badge">Responsive Design</span>
+                <span class="badge">Accessibility</span>
+                <span class="badge">Web Performance</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+
+</html>
